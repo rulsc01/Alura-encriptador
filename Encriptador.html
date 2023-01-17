@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/minecraftia" type="text/css"/>
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/minecraft-4');
+    
+    </style>
+    <script src="encriptador.js"></script>
+  <title>encriptador</title>
+  
+</head>
+<header>
+  <nav>
+    <ul>
+    </ul>
+  </nav>
+  Encriptador/ desencriptador
+</header>
+<body>
+  <main>
+  <div >
+    <input class="text-input" type="text" name="input-texto" id="inputtexto" placeholder="Ingrese el texto aqui">
+    <div id="buttons">
+    <button onclick="encriptar()"id="btn_encriptar" type="button" > Encriptar</button>
+    <button   onclick="desencriptar()" id="btn_desencriptar" type="button" > Desencriptar</button>
+    </div>
+    
+  </div>
+  <div id="mensaje">
+    <textarea id="texto2" >Ingresa el texto que desees encriptar o desenciptar.</textarea>
+    <button id="copiar"  onclick="copia()" type="button">copiar</button>
+  </div>
+</main>
+</body>
+</html>
